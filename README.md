@@ -1,41 +1,45 @@
-# Algoritmos e Programação 1 — Introdução ao Python
+# Algoritmos e Programação I — Lógica de Programação em Python
 
-Repositório com os exercícios e atividades desenvolvidos durante a disciplina **Algoritmos e Programação 1**, do curso de **Sistemas de Informação** no **Instituto Federal Catarinense — Campus Araquari**.
+Repositório criado para reunir e mostrar a resolução de todas as listas de exercícios de **lógica de programação** propostas pelo professor durante a disciplina **Algoritmos e Programação I**, do curso de **Sistemas de Informação** no **Instituto Federal Catarinense — Campus Araquari**.
+
+O objetivo é documentar minha evolução ao longo da disciplina, começando pelos conceitos mais básicos de lógica de programação.
 
 - **Curso:** Bacharelado em Sistemas de Informação (BSI)
 - **Semestre:** 1º semestre
-- **Professor:** Paulo César Fernandes de Oliveira
+- **Professor:** Paulo César Fernandes de Oliveira, BSc, PhD
 
-## 📄 Lista de Exercícios
+## 📂 Estrutura do repositório
 
-Você pode acessar o PDF original da lista aqui:
+Cada pasta corresponde a uma lista de exercícios passada pelo professor, organizada na ordem em que os conteúdos foram apresentados em sala:
 
-[📥 Lista de Exercícios (PDF)](Lista_Introducao_PRG1.pdf)
+| # | Pasta | Conteúdo |
+|---|-------|----------|
+| 1 | [`01-introducao`](./01-introducao) | Introdução: entrada/saída de dados, operadores aritméticos e fórmulas matemáticas |
+| 2 | [`02-exercicios-extras`](./02-exercicios-extras) | Exercícios extras de fixação |
+| 3 | [`03-estrutura-decisao`](./03-estrutura-decisao) | Estruturas de decisão (`if`, `elif`, `else`) |
+| 4 | [`04-estruturas-repeticao`](./04-estruturas-repeticao) | Estruturas de repetição (`for`, `while`) |
+| 5 | [`05-vetores-e-matrizes`](./05-vetores-e-matrizes) | Vetores e matrizes |
+| 6 | [`06-strings`](./06-strings) | Manipulação de strings |
+| 7 | [`07-funcoes`](./07-funcoes) | Funções |
 
-## 📋 Exercícios
-
-| # | Exercício | Arquivo |
-|---|-----------|---------|
-| 1 | Ler dois números e mostrar o produto | `exercicio01.py` |
-| 2 | Converter Fahrenheit para Centígrados | `exercicio02.py` |
-| 3 | Converter polegadas para milímetros | `exercicio03.py` |
-| 4 | Calcular volume de uma lata de óleo | `exercicio04.py` |
-| 5 | Calcular média ponderada de 3 notas | `exercicio05.py` |
-| 6 | Calcular distância entre dois pontos | `exercicio06.py` |
-| 7 | Resolver sistema de equações lineares | `exercicio07.py` |
-| 8 | Calcular custo ao consumidor de um carro | `exercicio08.py` |
-| 9 | Converter idade em dias para anos/meses/dias | `exercicio09.py` |
-| 10 | Converter duração em segundos para h/min/s | `exercicio10.py` |
-| 11 | Calcular quantidade de casas populares construídas | `exercicio11.py` |
-| 12 | Calcular salário líquido (IR, INSS, Sindicato) | `exercicio12.py` |
-| 13 | Calcular litros de gasolina e gasto de viagem | `exercicio13.py` |
-| 14 | Calcular mourões e arame para cercar terreno | `exercicio14.py` |
-| 15 | Mostrar dados de consumo de um automóvel | `exercicio15.py` |
+Cada pasta contém:
+- Os arquivos `.py` com a resolução de cada exercício da lista, numerados na ordem do enunciado
+- O PDF original da lista de exercícios correspondente, para consulta
 
 ## 🛠️ Tecnologias
 
 - Python 3
 
+## ▶️ Como executar
+
+Clone o repositório e rode qualquer exercício com Python:
+
+```bash
+git clone https://github.com/ManoelFranciscoDias/algoritmos-e-programacao-1.git
+cd algoritmos-e-programacao-1/01-introducao
+python exercicio01.py
+```
+
 ## 👤 Autor
 
-Feito por **Manoel Francisco**, durante o **1º semestre do curso de Sistemas de Informação** no **Instituto Federal Catarinense — Campus Araquari**.
+Feito por **Manoel Francisco Dias de Jesus**, durante o **1º semestre do curso de Sistemas de Informação** no **Instituto Federal Catarinense — Campus Araquari**.
