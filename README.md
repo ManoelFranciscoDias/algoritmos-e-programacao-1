@@ -1,15 +1,16 @@
-# Algoritmos e Programação 1
+# Algoritmos e Programação 1 — Introdução ao Python
 
-Repositório com os exercícios da disciplina **Algoritmos e Programação 1**, do **Instituto Federal Catarinense - Campus Araquari**.
+Repositório com os exercícios e atividades desenvolvidos durante a disciplina **Algoritmos e Programação 1**, do curso de **Sistemas de Informação** no **Instituto Federal Catarinense — Campus Araquari**.
 
 **Professor:** Paulo César Fernandes de Oliveira
+**Curso:** Bacharelado em Sistemas de Informação (BSI)
+**Semestre:** 1º semestre
 
 ## 📄 Lista de Exercícios
 
 Você pode acessar o PDF original da lista aqui:
 
 [📥 Lista de Exercícios (PDF)](Lista_Introducao_PRG1.pdf)
-
 
 ## 📋 Exercícios
 
@@ -37,4 +38,4 @@ Você pode acessar o PDF original da lista aqui:
 
 ## 👤 Autor
 
-Feito por **Manoel Francisco** durante a disciplina de **Algoritmos e Programação 1**.
+Feito por **Manoel Francisco**, durante o **1º semestre do curso de Sistemas de Informação** no **Instituto Federal Catarinense — Campus Araquari**.
