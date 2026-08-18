@@ -2,9 +2,9 @@
 
 Repositório com os exercícios e atividades desenvolvidos durante a disciplina **Algoritmos e Programação 1**, do curso de **Sistemas de Informação** no **Instituto Federal Catarinense — Campus Araquari**.
 
-**Professor:** Paulo César Fernandes de Oliveira
-**Curso:** Bacharelado em Sistemas de Informação (BSI)
-**Semestre:** 1º semestre
+- **Curso:** Bacharelado em Sistemas de Informação (BSI)
+- **Semestre:** 1º semestre
+- **Professor:** Paulo César Fernandes de Oliveira
 
 ## 📄 Lista de Exercícios
 
