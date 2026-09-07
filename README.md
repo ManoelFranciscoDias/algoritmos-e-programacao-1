@@ -43,7 +43,3 @@ python exercicio01.py
 ## 👤 Autor
 
 Feito por **Manoel Francisco Dias de Jesus**, durante o **1º semestre do curso de Sistemas de Informação** no **Instituto Federal Catarinense — Campus Araquari**.
-
-## 📄 Licença
-
-Este projeto está sob a licença [MIT](./LICENSE).

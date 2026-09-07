@@ -1,0 +1,3 @@
+# Exercício 16: Fazer um algoritmo que calcule e imprima o valor de e^x através da série:
+# e^x = x^0 + x^1/1! + x^2/2! + x^3/3! + ...
+# Considerar para efeitos de cálculo os 30 primeiros termos. O algoritmo deverá ler o valor de x.
