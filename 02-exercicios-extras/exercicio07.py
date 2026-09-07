@@ -1,3 +1,6 @@
+# Exercício 7: Construir um algoritmo para ler o raio de uma circunferência e mostrar o perímetro (2 x
+# pi x raio) e a área (pi x raio^2). Utilize o pi como constante.
+
 import math
 raio = float(input('Informe o raio de uma circunferência: '))
 

@@ -1,3 +1,6 @@
+# Exercício 3: Faça um algoritmo que leia uma certa quantidade de chuva em polegadas e escreva o
+# equivalente em milímetros. FÓRMULA: 25.4 mm = 1 polegada
+
 chuva_em_polegadas = float(input('Digite a quantidade de chuva em polegadas: '))
 
 chuva_em_milimetros = chuva_em_polegadas * 25.4

@@ -1,3 +1,8 @@
+# Exercício 24: Escrever um algoritmo para ler dois valores e uma das seguintes operações a serem
+# executadas (codificadas da seguinte forma: 1 - Adição, 2 - Subtração, 3 - Multiplicação
+# e 4 - Divisão). Calcular e escrever o resultado dessa operação sobre os dois valores
+# lidos.
+
 valor_1 = float(input('Digite o primeiro valor: '))
 valor_2 = float(input('Digite o segundo valor: '))
 

@@ -1,3 +1,6 @@
+# Exercício 22: Ler 3 valores (considere que não serão informados valores iguais) e escrevê-los em ordem
+# crescente.
+
 nmr1 = float(input('Digite o primeiro valor: '))
 nmr2 = float(input('Digite o segundo valor: '))
 nmr3 = float(input('Digite o terceiro valor: '))

@@ -1,3 +1,10 @@
+# Exercício 23: Faça um algoritmo que leia as duas notas parciais obtidas por um aluno numa disciplina
+# ao longo de um semestre, e calcule a sua média. Atribuição de conceitos: entre 9.0 e
+# 10.0 = A; entre 7.5 e 9.0 = B; entre 6.0 e 7.5 = C; entre 4.0 e 6.0 = D; entre 4.0 e
+# zero = E. O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente
+# e a mensagem "APROVADO" se o conceito for A, B ou C ou "REPROVADO" se o conceito for D
+# ou E.
+
 nota_1 = float(input('Digite a sua primeira nota: '))
 nota_2 = float(input('Digite a sua segunda nota: '))
 

@@ -1,3 +1,7 @@
+# Exercício 11: Escrever um algoritmo para ler a quantidade de horas aula dadas por dois professores e o
+# valor por hora recebido por cada um. Mostrar na tela qual dos professores tem salário
+# total maior.
+
 nome_professor_1 = input('Qual o nome do primeiro professor? ')
 nome_professor_2 = input('Qual o nome do segundo professor? ')
 aulas_professor_1 = float(input(f'Qual a quantidade de horas aula dadas pelo professor {nome_professor_1}? '))

@@ -1,3 +1,8 @@
+# Exercício 15: São dados de entrada sobre um automóvel: modelo, marca, ano, km inicial, km final,
+# litros de combustível consumidos, preço por litro. Faça um algoritmo que escreva os
+# dados de saída: modelo, marca, ano, distância percorrida, litros de combustível
+# consumidos, preço por litro, total a pagar e km por litro.
+
 modelo = input('Informe qual é o modelo do carro: ')
 marca = input('Informe qual é a marca do carro: ')
 ano = input('Informe qual é o ano do carro: ')

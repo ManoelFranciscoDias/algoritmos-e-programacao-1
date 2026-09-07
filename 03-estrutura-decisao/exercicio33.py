@@ -1,3 +1,8 @@
+# Exercício 33: Escreva um algoritmo que leia as idades de 2 homens e 2 mulheres (considere que as
+# idades dos homens serão sempre diferentes, bem como as das mulheres). Calcule e escreva
+# a soma das idades do homem mais velho com a mulher mais nova, e o produto das idades do
+# homem mais novo com a mulher mais velha.
+
 idade_homem_1 = int(input('Digite a idade do primeiro homem: '))
 idade_homem_2 = int(input('Digite a idade do segundo homem: '))
 idade_mulher_1 = int(input('Digite a idade da primeira mulher: '))

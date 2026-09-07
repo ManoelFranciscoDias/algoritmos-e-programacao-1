@@ -1,3 +1,5 @@
+# Exercício 16: Entrar com um número de 1 a 12 e exibir o mês correspondente.
+
 numero = input('Informe um número de 1 a 12: ')
 
 if numero.isdigit():

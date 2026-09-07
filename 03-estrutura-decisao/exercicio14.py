@@ -1,3 +1,6 @@
+# Exercício 14: Entrar com a sigla do estado de uma pessoa e imprimir uma das mensagens: "Carioca,
+# Paulista, Mineiro ou Outros"
+
 sigla = input('Informe a sigla do seu estado: ').upper()
 
 if sigla == 'RJ':

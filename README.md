@@ -23,7 +23,7 @@ Cada pasta corresponde a uma lista de exercícios passada pelo professor, organi
 | 7 | [`07-funcoes`](./07-funcoes) | Funções |
 
 Cada pasta contém:
-- Os arquivos `.py` com a resolução de cada exercício da lista, numerados na ordem do enunciado
+- Os arquivos `.py` com a resolução de cada exercício da lista, numerados na ordem do enunciado, com o enunciado comentado no topo de cada arquivo
 - O PDF original da lista de exercícios correspondente, para consulta
 
 ## 🛠️ Tecnologias
@@ -35,11 +35,15 @@ Cada pasta contém:
 Clone o repositório e rode qualquer exercício com Python:
 
 ```bash
-git clone https://github.com/ManoelFranciscoDias/algoritmos-e-programacao-1.git
-cd algoritmos-e-programacao-1/01-introducao
+git clone https://github.com/ManoelFranciscoDias/introducao-python.git
+cd introducao-python/01-introducao
 python exercicio01.py
 ```
 
 ## 👤 Autor
 
 Feito por **Manoel Francisco Dias de Jesus**, durante o **1º semestre do curso de Sistemas de Informação** no **Instituto Federal Catarinense — Campus Araquari**.
+
+## 📄 Licença
+
+Este projeto está sob a licença [MIT](./LICENSE).

@@ -1,3 +1,7 @@
+# Exercício 7: Um sistema de equações lineares da forma ax + by = c, dx + ey = f pode ser resolvido com
+# x = (ce - bf) / (ae - bd) e y = (af - cd) / (ae - bd). Faça um algoritmo que leia os
+# valores a, b, c, d, e, f, e calcule x e y.
+
 a = float(input('Digite o valor de A: '))
 b = float(input('Digite o valor de B: '))
 c = float(input('Digite o valor de C: '))

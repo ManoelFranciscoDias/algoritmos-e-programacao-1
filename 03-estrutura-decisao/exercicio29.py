@@ -1,3 +1,7 @@
+# Exercício 29: Faça um algoritmo para calcular o reajuste salarial de um funcionário: se salário é
+# inferior a R$ 10.000,00, reajuste de 55%; se está entre R$ 10.000,00 (inclusive) e R$
+# 25.000,00 (inclusive), reajuste de 20%; se é superior a R$ 25.000,00, reajuste de 20%.
+
 salario = float(input('Informe qual é o seu salario: '))
 
 if salario >= 0:

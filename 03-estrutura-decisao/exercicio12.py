@@ -1,3 +1,6 @@
+# Exercício 12: Faça um algoritmo que leia um número inteiro e mostre uma mensagem indicando se este
+# número é par ou ímpar.
+
 numero = input('Digite um número inteiro: ')
 
 if numero.isdigit():

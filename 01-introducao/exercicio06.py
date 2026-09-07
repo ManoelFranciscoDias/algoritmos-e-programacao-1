@@ -1,3 +1,7 @@
+# Exercício 6: Faça um algoritmo que leia as coordenadas de dois pontos, P1 (x1, y1) e P2 (x2, y2)
+# respectivamente, e calcule e escreva a distância entre eles. FÓRMULA: d = raiz((x2 -
+# x1)^2 + (y2 - y1)^2)
+
 import math
 
 x1 = float(input('Informe a coordenada x1: '))

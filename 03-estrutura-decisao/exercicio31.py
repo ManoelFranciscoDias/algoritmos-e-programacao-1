@@ -1,3 +1,8 @@
+# Exercício 31: Faça um algoritmo que permita a entrada de um valor de 1 a 4. Em seguida, leia dois
+# valores. Se o valor digitado for 0, exibir a soma; se 1, a subtração; se 2, a
+# multiplicação; se 3, a divisão; se 4, a média dos números; para qualquer outro valor,
+# exibir a mensagem "Valor errado. Programa encerrado sem cálculos".
+
 entrada = input('Digite um valor de 0 a 4: ')
 
 if entrada.isdigit():

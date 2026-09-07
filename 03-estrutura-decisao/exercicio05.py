@@ -1,3 +1,5 @@
+# Exercício 5: Construir um algoritmo que indique se o número digitado está entre 20 e 90 ou não.
+
 numero = float(input('Digite um número: '))
 
 if 20 <= numero <= 90:

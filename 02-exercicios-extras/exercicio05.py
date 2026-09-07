@@ -1,3 +1,6 @@
+# Exercício 5: Elaborar um algoritmo para ler dois números e mostrar o quociente e o resto da divisão
+# inteira do primeiro pelo segundo número.
+
 numero_1 = int(input('Digite o primeiro número: '))
 numero_2 = int(input('Digite o segundo número: '))
 

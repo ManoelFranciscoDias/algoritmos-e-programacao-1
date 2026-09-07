@@ -1,3 +1,6 @@
+# Exercício 7: Entrar com o ano de nascimento de uma pessoa e imprimir a idade dela. Verificar se o ano
+# digitado é válido.
+
 from datetime import datetime
 
 ano_atual = datetime.now().year

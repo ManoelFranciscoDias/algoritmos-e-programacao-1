@@ -1,3 +1,6 @@
+# Exercício 4: Faça um algoritmo que calcule o volume de uma lata de óleo. Escreva o resultado.
+# FÓRMULA: volume = pi * raio^2 * altura
+
 import math
 
 raio = float(input('Digite o valor do raio da lata de óleo: '))
