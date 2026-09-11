@@ -1,5 +1,6 @@
 # Exercício 6: Faça um algoritmo que leia n valores inteiros e escreva quantos desses valores
 # são negativos.
+
 n = int(input('Digite quantos valores inteiros deseja mencionar: '))
 contador = 1
 quantidade_negativos = 0

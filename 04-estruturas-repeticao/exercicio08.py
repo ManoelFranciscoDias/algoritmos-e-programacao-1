@@ -3,6 +3,7 @@
 # - o número de inscrição e a altura do atleta mais alto;
 # - o número de inscrição e a altura do atleta mais baixo;
 # - a altura média do grupo de atletas.
+
 quantidade_atletas = int(input('Digite quantos atletas deseja cadastrar: '))
 soma_alturas = 0
 posicao_atual = 1
