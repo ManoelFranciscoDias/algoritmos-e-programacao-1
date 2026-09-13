@@ -6,4 +6,4 @@ fatorial = 1
 for i in range(n, 0, -1):
     fatorial *= i
 
-print(f'O fatorial de 4 é {fatorial}')
+print(f'O fatorial de {n} é {fatorial}')
