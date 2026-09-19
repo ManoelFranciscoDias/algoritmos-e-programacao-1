@@ -3,7 +3,7 @@
 # mês. Ele tem uma tabela mensal que indica para cada mercadoria o preço de venda. Escreva o
 # algoritmo para calcular o faturamento mensal do armazém, isto é:
 # FATURAMENTO = somatório de (QUANTIDADE[i] * PREÇO[i]), para i de 0 a 99.
-# As tabelas de preço e quantidade são fornecidas em dois vetores.
+# As tabelas de preço e quantidade são fornecidas em dois vetores
 
 preco = []
 quantidade = []
