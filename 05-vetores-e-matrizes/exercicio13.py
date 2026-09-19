@@ -3,3 +3,5 @@
 # b) conte quantos brancos existem na frase;
 # c) conte quantas vezes a letra "A" aparece;
 # d) imprima o que foi calculado nos itens b e c.
+
+
