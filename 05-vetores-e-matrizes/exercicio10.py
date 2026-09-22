@@ -8,7 +8,7 @@ A = []
 
 print('Digite 100 valores numéricos')
 for i in range(100):
-    valor = float(input(f'Digite o {i+1}° valor numérico: ').replace(',', '.'))
+    valor = float(input(f'Digite o {i+1}º valor numérico: ').replace(',', '.'))
     A.append(valor)
 
 S = 0

@@ -6,3 +6,30 @@
 # ...
 # Y[m-1] = A[m-1][0] * X[0] + A[m-1][1] * X[1] + ... + A[m-1][n-1] * X[n-1]
 # Escreva os dados de entrada (os valores de A e X) seguidos pelos valores dos elementos de Y.
+
+M = 20
+N = 30
+
+A = []
+print('Digite os elementos da matriz A')
+for i in range(M):
+    linha = []
+    for j in range(N):
+        linha.append(int(input(f'Digite A[{i}][{j}]: ')))
+    A.append(linha)
+
+X = []
+print('Digite os elementos do vetor X')
+for j in range(N):
+    X.append(int(input(f'Digite X[{j}]: ')))
+
+Y = []
+for i in range(M):
+    soma = 0
+    for j in range(N):
+        soma += A[i][j] * X[j]
+    Y.append(soma)
+
+print('Matriz A:', A)
+print('Vetor X:', X)
+print('Vetor Y:', Y)

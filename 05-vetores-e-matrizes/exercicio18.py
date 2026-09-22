@@ -10,8 +10,8 @@ for i in range(15):
     A.append(linha)
 
 
-print('Conteudo da matriz A: ')
+print('Conteúdo da matriz A:')
 for i in range(15):
     for j in range(25):
         print(f"{A[i][j]:4}", end="")
-    print()        
+    print()

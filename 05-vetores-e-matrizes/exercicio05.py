@@ -5,10 +5,10 @@ vetor = []
 posicoes = []
 
 for i in range(100):
-    numeros = int(input(f'Digite o {i+1} elemento: '))
-    vetor.append(numeros)
+    numero = int(input(f'Digite o {i+1}º elemento: '))
+    vetor.append(numero)
 
-    if numeros == 30:
+    if numero == 30:
         posicoes.append(i)
 
 if len(posicoes) >= 1:

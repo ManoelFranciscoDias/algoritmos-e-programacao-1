@@ -13,7 +13,7 @@ k = int(input('Informe qual é a constante k: '))
 for i in range(4):
     matriz[i][i] *= k
 
-print('Conteudo da Matriz')
+print('Conteúdo da matriz:')
 for i in range(4):
     for j in range(4):
         print(f'{matriz[i][j]:4}', end="")

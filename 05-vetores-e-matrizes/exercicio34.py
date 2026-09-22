@@ -25,3 +25,41 @@
 # Portanto, fazer um algoritmo que, a partir da produção mensal de motores M1 e M2 e seus
 # respectivos custos e lucros, calcule o custo e o lucro em cada um dos meses e o custo e lucro
 # anuais.
+
+MESES = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho',
+         'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+
+producao = []
+print('Digite a produção mensal dos motores M1 e M2')
+for i in range(12):
+    m1 = int(input(f'{MESES[i]} - quantidade de M1: '))
+    m2 = int(input(f'{MESES[i]} - quantidade de M2: '))
+    producao.append([m1, m2])
+
+custo_lucro = []
+print('Digite o custo e o lucro de cada motor (em milhares de reais)')
+for motor in ('M1', 'M2'):
+    custo = float(input(f'Custo do motor {motor}: '))
+    lucro = float(input(f'Lucro do motor {motor}: '))
+    custo_lucro.append([custo, lucro])
+
+resultado = []
+for i in range(12):
+    custo_mes = 0
+    lucro_mes = 0
+    for k in range(2):
+        custo_mes += producao[i][k] * custo_lucro[k][0]
+        lucro_mes += producao[i][k] * custo_lucro[k][1]
+    resultado.append([custo_mes, lucro_mes])
+
+custo_anual = 0
+lucro_anual = 0
+
+print('\nCusto e lucro mensais:')
+for i in range(12):
+    print(f'{MESES[i]}: custo = R$ {resultado[i][0]:.2f} | lucro = R$ {resultado[i][1]:.2f}')
+    custo_anual += resultado[i][0]
+    lucro_anual += resultado[i][1]
+
+print(f'\nCusto anual: R$ {custo_anual:.2f}')
+print(f'Lucro anual: R$ {lucro_anual:.2f}')

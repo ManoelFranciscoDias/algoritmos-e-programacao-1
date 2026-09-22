@@ -12,6 +12,6 @@ soma_total = 0
 for i in range(4):
     soma_linha = sum(tabela[i])
     soma_total += soma_linha
-    print(f'A soma da {i+1}° linha é: {soma_linha}')
+    print(f'A soma da {i+1}ª linha é: {soma_linha}')
 
 print(f'A soma de todos os elementos é: {soma_total}')

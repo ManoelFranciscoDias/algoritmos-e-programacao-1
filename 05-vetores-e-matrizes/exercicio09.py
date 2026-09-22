@@ -4,23 +4,23 @@
 #    unidimensional de 50 elementos;
 # c) Escreva o resultado obtido.
 
-variavel_1 = []
-variavel_2 = []
-variavel_3 = []
+vetor1 = []
+vetor2 = []
+vetor_intercalado = []
 
-print('Digite os 25 valores da variavel 1: ')
+print('Digite os 25 valores do vetor 1: ')
 for i in range(25):
-    valor = float(input(f'Digite o {i+1} valor: '))
-    variavel_1.append(valor)
+    valor = float(input(f'Digite o {i+1}º valor: '))
+    vetor1.append(valor)
 
-print('Digite os 25 valores da variavel 2: ')
+print('Digite os 25 valores do vetor 2: ')
 for i in range(25):
-    valor = float(input(f'Digite o {i+1} valor: '))
-    variavel_2.append(valor)
+    valor = float(input(f'Digite o {i+1}º valor: '))
+    vetor2.append(valor)
 
 for i in range(25):
-    variavel_3.append(variavel_1[i])
-    variavel_3.append(variavel_2[i])
+    vetor_intercalado.append(vetor1[i])
+    vetor_intercalado.append(vetor2[i])
 
-print('Intercalando as duas variaveis temos:')
-print(variavel_3)
+print('Intercalando os dois vetores temos:')
+print(vetor_intercalado)

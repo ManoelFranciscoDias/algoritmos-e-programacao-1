@@ -5,7 +5,7 @@
 A = []
 
 for i in range(100):
-    valores = float(input(f'Digite o {i+1}° elemento: '))
-    A.append(valores)
+    valor = float(input(f'Digite o {i+1}º elemento: '))
+    A.append(valor)
 
 print(f'O somatório dos valores armazenados é {sum(A)}')

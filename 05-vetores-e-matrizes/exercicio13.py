@@ -4,8 +4,6 @@
 # c) conte quantas vezes a letra "A" aparece;
 # d) imprima o que foi calculado nos itens b e c
 
-# Exercício 13
-
 frase = input('Digite uma frase de 50 caracteres: ')
 
 while len(frase) != 50:

@@ -4,8 +4,8 @@
 vetor = []
 
 for i in range(200):
-    valores = float(input(f'Digite o {i+1}° valor: '))
-    vetor.append(valores)
+    valor = float(input(f'Digite o {i+1}º valor: '))
+    vetor.append(valor)
 
 vetor.reverse()
 print('O vetor na ordem contrária em que foi lido é:')

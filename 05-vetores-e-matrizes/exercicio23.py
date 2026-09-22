@@ -13,7 +13,7 @@ for i in range(10):
     matriz.append(linha)
 
 print()
-print('Conteudo da matriz')
+print('Conteúdo da matriz:')
 for i in range(10):
     for j in range(10):
         print(f'{matriz[i][j]:4}', end='')
