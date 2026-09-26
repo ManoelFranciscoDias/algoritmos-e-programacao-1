@@ -2,3 +2,15 @@
 # de entrada e a hipotenusa é o dado de saída.
 #
 # hipotenusa = sqrt(catetoA² + catetoB²)
+
+import math
+
+def calcular_hipotenusa(cateto_a, cateto_b):
+    return math.sqrt(cateto_a**2 + cateto_b**2)
+
+a = float(input("Digite o valor do cateto A: "))
+b = float(input("Digite o valor do cateto B: "))
+
+hipotenusa = calcular_hipotenusa(a, b)
+
+print(f"A hipotenusa é: {hipotenusa:.2f}")
