@@ -6,7 +6,7 @@
 # canal e para o número de pessoas. Faça um algoritmo que calcule e escreva, para cada emissora,
 # o percentual de audiência.
 
-casas = int(input('Digite quantas casas foram feita as pesquisas: '))
+casas = int(input('Em quantas casas a pesquisa foi feita? '))
 
 soma_canal_4 = 0
 soma_canal_5 = 0
@@ -15,12 +15,15 @@ soma_canal_12 = 0
 soma_desligada = 0
 
 for i in range(1, casas + 1):
-    canal = int(input(f'Na casa {i}, qual foi o canal assistido? (0 = desligada, 4, 5, 9, 12): '))
+    canal = int(input(f'Na casa {i}, qual canal estava sendo assistido? (0 = desligada, 4, 5, 9, 12): '))
+
+    while canal not in (0, 4, 5, 9, 12):
+        print('Canal inválido! Digite 0, 4, 5, 9 ou 12.')
+        canal = int(input(f'Na casa {i}, qual canal estava sendo assistido? (0 = desligada, 4, 5, 9, 12): '))
 
     if canal == 0:
-        pessoas = 0
         soma_desligada += 1
-    elif canal in (4, 5, 9, 12):
+    else:
         pessoas = int(input(f'Na casa {i}, quantas pessoas estavam assistindo TV? '))
         if canal == 4:
             soma_canal_4 += pessoas
@@ -30,8 +33,6 @@ for i in range(1, casas + 1):
             soma_canal_9 += pessoas
         else:
             soma_canal_12 += pessoas
-    else:
-        print('Canal inválido! Digite 0, 4, 5, 9 ou 12.')
 
 total_pessoas = soma_canal_4 + soma_canal_5 + soma_canal_9 + soma_canal_12
 
@@ -40,7 +41,6 @@ if total_pessoas > 0:
     porcentagem_canal_5 = (soma_canal_5 / total_pessoas) * 100
     porcentagem_canal_9 = (soma_canal_9 / total_pessoas) * 100
     porcentagem_canal_12 = (soma_canal_12 / total_pessoas) * 100
-
 else:
     porcentagem_canal_4 = porcentagem_canal_5 = porcentagem_canal_9 = porcentagem_canal_12 = 0
 

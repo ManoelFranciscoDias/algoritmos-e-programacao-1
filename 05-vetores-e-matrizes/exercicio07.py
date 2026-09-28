@@ -8,5 +8,5 @@ for i in range(200):
     vetor.append(valor)
 
 vetor.reverse()
-print('O vetor na ordem contrária em que foi lido é:')
+print('O vetor na ordem contrária à da leitura é:')
 print(vetor)

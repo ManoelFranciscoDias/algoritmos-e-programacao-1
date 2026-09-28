@@ -13,5 +13,4 @@ while contador <= 100:
     contador += 1
 
 print(f'A soma dos números pares é {soma_par}')
-print(f'A soma dos números impares é {soma_impar}')
-
+print(f'A soma dos números ímpares é {soma_impar}')

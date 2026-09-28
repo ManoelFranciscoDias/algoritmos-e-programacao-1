@@ -5,39 +5,31 @@
 # igual a 4, divida a soma dos números lidos pelo segundo (se este for diferente de zero);
 # em qualquer outra situação, mostre o quadrado dos números lidos.
 
-num1 = int(input('Digite o primeiro número inteiro: '))
-num2 = int(input('Digite o segundo número inteiro: '))
+numero_1 = int(input('Digite o primeiro número inteiro: '))
+numero_2 = int(input('Digite o segundo número inteiro: '))
 
-resto = num1 % num2
-
-if resto == 1:
-    soma = num1 + num2
-    print(f'A soma dos números mais o resto da divisão é: {soma + resto}')
-
-elif resto == 2:
-    if num1 % 2 == 0:
-        print('O primeiro valor é par')
-    else:
-        print('O primeiro valor é ímpar')
-
-    if num2 % 2 == 0:
-        print('O segundo valor é par')
-    else:
-        print('O segundo valor é ímpar')
-
-elif resto == 3:
-    soma = num1 + num2
-    resultado = soma * num1
-    print(f'A soma dos valores multiplicada pelo primeiro é: {resultado}')
-
-elif resto == 4:
-    soma = num1 + num2
-    if num2 != 0:
-        resultado = soma / num2
-        print(f'A soma dos números dividida pelo segundo é: {resultado}')
-    else:
-        print('Não é possível dividir por zero')
-
+if numero_2 == 0:
+    print('Não é possível dividir por zero: o segundo número deve ser diferente de 0')
 else:
-    print(f'O quadrado do primeiro número é: {num1 ** 2}')
-    print(f'O quadrado do segundo número é: {num2 ** 2}')
+    resto = numero_1 % numero_2
+    soma = numero_1 + numero_2
+
+    if resto == 1:
+        print(f'A soma dos números mais o resto da divisão é: {soma + resto}')
+    elif resto == 2:
+        if numero_1 % 2 == 0:
+            print('O primeiro valor é par')
+        else:
+            print('O primeiro valor é ímpar')
+
+        if numero_2 % 2 == 0:
+            print('O segundo valor é par')
+        else:
+            print('O segundo valor é ímpar')
+    elif resto == 3:
+        print(f'A soma dos valores multiplicada pelo primeiro é: {soma * numero_1}')
+    elif resto == 4:
+        print(f'A soma dos valores dividida pelo segundo é: {soma / numero_2}')
+    else:
+        print(f'O quadrado do primeiro número é: {numero_1 ** 2}')
+        print(f'O quadrado do segundo número é: {numero_2 ** 2}')

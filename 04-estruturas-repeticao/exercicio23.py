@@ -5,13 +5,13 @@
 # indica o fim da entrada de dados.
 
 while True:
-    nome_cliente = input('Digite o nome do cliente (use ULTIMO para encerrar): ').upper()
+    nome_cliente = input('Digite o nome do cliente (ULTIMO para encerrar): ').strip()
 
-    if nome_cliente == "ULTIMO":
+    if nome_cliente.upper() == 'ULTIMO':
         print('FIM!')
         break
 
-    endereco_cliente = input('Digite o seu endereço: ')
+    endereco_cliente = input('Digite o endereço do cliente: ')
     valor_compra = float(input('Digite o valor da compra: '))
 
     if valor_compra > 500:
@@ -19,4 +19,4 @@ while True:
     else:
         total_a_pagar = valor_compra * 0.85
 
-    print(f'{nome_cliente}, o total a pagar é de R${total_a_pagar:.2f}')
+    print(f'{nome_cliente}, o total a pagar é R$ {total_a_pagar:.2f}')

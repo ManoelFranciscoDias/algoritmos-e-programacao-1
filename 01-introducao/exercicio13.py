@@ -3,12 +3,12 @@
 # distância da casa de Maria até sua irmã; o consumo do carro de Maria (KM rodados /
 # litro); o preço da gasolina (litro). E mostre as informações que Maria necessita.
 
-distancia_casa = float(input('Informe qual é a distância da casa de Maria até sua irmã? '))
-consumo_carro = float(input('Informe o consumo do carro (KM/L): '))
-preco_gasolina = float(input('Informe o preço da gasolina (litro): '))
+distancia = float(input('Informe a distância (em km) da casa de Maria até a casa da irmã: '))
+consumo_carro = float(input('Informe o consumo do carro (km/L): '))
+preco_gasolina = float(input('Informe o preço do litro da gasolina: '))
 
-litros_necessarios = distancia_casa / consumo_carro
-valor_gasto = litros_necessarios * preco_gasolina
+litros_necessarios = distancia / consumo_carro
+custo_viagem = litros_necessarios * preco_gasolina
 
-print(f'Maria vai precisar de {litros_necessarios:.2f}L para chegar até a casa de sua irmã')
-print(f'Maria vai ter um gasto de R${valor_gasto:.2f}')
+print(f'Maria vai precisar de {litros_necessarios:.2f} L de gasolina para chegar à casa da irmã')
+print(f'Maria vai gastar R$ {custo_viagem:.2f}')

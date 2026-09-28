@@ -4,7 +4,7 @@
 # faça sentido. Gere também um programa que leia um valor e chame a função
 # criada.
 
-def mes(numero):
+def exibir_mes(numero):
     meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
              'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
     if 1 <= numero <= 12:
@@ -13,5 +13,5 @@ def mes(numero):
         print('Erro: o número deve estar entre 1 e 12.')
 
 
-n = int(input('Digite o número do mês (1 a 12): '))
-mes(n)
+numero_mes = int(input('Digite o número do mês (1 a 12): '))
+exibir_mes(numero_mes)

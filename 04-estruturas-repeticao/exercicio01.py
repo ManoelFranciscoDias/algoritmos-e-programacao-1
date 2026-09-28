@@ -9,16 +9,19 @@ quantidade_positivos = 0
 negativos = []
 
 while contador <= 20:
-    numero = int(input(f'Digite o {contador}° número: '))
+    numero = int(input(f'Digite o {contador}º número: '))
     if numero < 0:
         negativos.append(numero)
-    else:
+    elif numero > 0:
         soma_positivos += numero
         quantidade_positivos += 1
 
     contador += 1
 
-print(f'Números negativos: {negativos}')
+if negativos:
+    print(f'Números negativos: {negativos}')
+else:
+    print('Nenhum número negativo foi digitado.')
 if quantidade_positivos > 0:
     print(f'A média dos números positivos é {(soma_positivos / quantidade_positivos):.2f}')
 else:

@@ -4,7 +4,7 @@ numero = input('Informe um número de 1 a 12: ')
 
 if numero.isdigit():
     numero = int(numero)
-    
+
     if numero == 1:
         print('Janeiro')
     elif numero == 2:

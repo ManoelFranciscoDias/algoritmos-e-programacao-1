@@ -3,22 +3,20 @@
 nota = []
 
 for i in range(10):
-    n = float(input(f'Digite a nota {i+1}: '))
+    valor_nota = float(input(f'Digite a nota {i + 1}: '))
 
-    while n < 0 or n > 10:
-        print('Digite notas de 0 a 10')
-        n = float(input(f'Digite a nota {i+1}: '))
+    while valor_nota < 0 or valor_nota > 10:
+        print('Digite uma nota de 0 a 10')
+        valor_nota = float(input(f'Digite a nota {i + 1}: '))
 
-    nota.append(n)
+    nota.append(valor_nota)
 
 media = sum(nota) / len(nota)
 
-acima_media = []
-for n in nota:
-    if n > media:
-        acima_media.append(n)
+quantidade_acima_media = 0
+for valor_nota in nota:
+    if valor_nota > media:
+        quantidade_acima_media += 1
 
 print(f'A média das notas é {media:.2f}')
-print('As notas acima da média são:')
-print(acima_media)
-
+print(f'Quantidade de notas acima da média: {quantidade_acima_media}')

@@ -4,7 +4,8 @@
 # o limite diário for excedido escreva uma mensagem e encerre a execução do algoritmo. O
 # algoritmo deve ainda apresentar ao usuário a seguinte mensagem: "informar o peso de mais um
 # peixe: s (SIM) / n (NÃO)?" antes de prosseguir com a entrada de dados.
-limite_diario_kg = float(input('Digite o limite diário de pesca (em Kg): '))
+
+limite_diario_kg = float(input('Digite o limite diário de pesca (em kg): '))
 limite_diario_g = limite_diario_kg * 1000
 
 peso_total = 0

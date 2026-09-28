@@ -10,5 +10,4 @@ for i in range(10):
     B.append(linha)
 
 soma_linha_5 = sum(B[4])
-print(f'O somatório dos elementos da quinta linha: {soma_linha_5}')
-
+print(f'O somatório dos elementos da quinta linha é {soma_linha_5}')

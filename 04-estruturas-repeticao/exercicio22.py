@@ -4,39 +4,34 @@
 # - escreva a média da altura das mulheres;
 # - escreva a média da altura da turma.
 
-n = int(input('Quantas pessoas deseja inserir a altura e sexo? '))
+n = int(input('Quantas pessoas deseja cadastrar? '))
 
-soma_alturas_femininas = 0
-qtd_mulheres = 0
-soma_alturas_totais = 0
-qtd_pessoas_validas = 0
+soma_alturas_mulheres = 0
+quantidade_mulheres = 0
+soma_alturas_turma = 0
 
 for i in range(1, n + 1):
-    sexo = input(f'Digite o sexo da {i}° pessoa (M para masculino || F para feminino): ').upper()
-    altura = float(input(f'Digite a altura da {i}° pessoa: '))
+    sexo = input(f'Digite o sexo da {i}º pessoa (M para masculino, F para feminino): ').strip().upper()
 
-    if len(sexo) != 1:
-        print('Digite apenas 1 caractere (M ou F).')
-    else:
-        if sexo == "F":
-            qtd_mulheres += 1
-            soma_alturas_femininas += altura
-            soma_alturas_totais += altura
-            qtd_pessoas_validas += 1
-        elif sexo == "M":
-            soma_alturas_totais += altura
-            qtd_pessoas_validas += 1
-        else:
-            print('Digite apenas 1 caractere (M ou F).')
+    while sexo != 'M' and sexo != 'F':
+        print('Sexo inválido! Digite M ou F.')
+        sexo = input(f'Digite o sexo da {i}º pessoa (M para masculino, F para feminino): ').strip().upper()
 
-if qtd_mulheres > 0:
-    media_altura_mulheres = soma_alturas_femininas / qtd_mulheres
+    altura = float(input(f'Digite a altura da {i}º pessoa: '))
+
+    soma_alturas_turma += altura
+    if sexo == 'F':
+        soma_alturas_mulheres += altura
+        quantidade_mulheres += 1
+
+if quantidade_mulheres > 0:
+    media_altura_mulheres = soma_alturas_mulheres / quantidade_mulheres
     print(f'A média da altura das mulheres é {media_altura_mulheres:.2f}')
 else:
     print('Nenhuma mulher foi cadastrada.')
 
-if qtd_pessoas_validas > 0:
-    media_altura_turma = soma_alturas_totais / qtd_pessoas_validas
+if n > 0:
+    media_altura_turma = soma_alturas_turma / n
     print(f'A média da altura da turma é {media_altura_turma:.2f}')
 else:
-    print('Nenhuma pessoa foi cadastrada corretamente.')
+    print('Nenhuma pessoa foi cadastrada.')

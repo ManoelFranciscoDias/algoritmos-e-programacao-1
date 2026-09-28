@@ -6,24 +6,23 @@
 # VETOR 2: __ __ __ __ __ __ __ __ __ __
 # VETOR 3: __ __ __ __ __ __ __ __ __ __
 
-vetor1 = []
-vetor2 = []
-vetor3 = []
+vetor_1 = []
+vetor_2 = []
+vetor_3 = []
 
 print('Digite os 10 elementos do Vetor 1')
 for i in range(10):
     valor = float(input(f'Digite o valor {i+1}: '))
-    vetor1.append(valor)
+    vetor_1.append(valor)
 
 print('Digite os 10 elementos do Vetor 2')
 for i in range(10):
     valor = float(input(f'Digite o valor {i+1}: '))
-    vetor2.append(valor)
+    vetor_2.append(valor)
 
 for i in range(10):
-    vetor3.append(vetor1[i] + vetor2[i])
+    vetor_3.append(vetor_1[i] + vetor_2[i])
 
-print(f'Vetor 1 é: {vetor1}')
-print(f'Vetor 2 é: {vetor2}')
-print(f'A soma dos dois vetores é:')
-print(vetor3)
+print(f'VETOR 1: {" ".join(str(valor) for valor in vetor_1)}')
+print(f'VETOR 2: {" ".join(str(valor) for valor in vetor_2)}')
+print(f'VETOR 3: {" ".join(str(valor) for valor in vetor_3)}')

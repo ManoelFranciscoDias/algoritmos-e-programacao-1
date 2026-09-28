@@ -13,10 +13,10 @@ N = 128
 
 vetor = sorted(random.sample(range(1, 1001), N))
 
-print("Vetor ordenado:")
+print('Vetor ordenado:')
 print(vetor)
 
-K = int(input("\nDigite o valor K a ser procurado: "))
+K = int(input('\nDigite o valor K a ser procurado: '))
 
 inicio = 0
 fim = N - 1
@@ -36,8 +36,8 @@ while inicio <= fim:
         inicio = meio + 1
 
 if posicao != -1:
-    print(f"\nO valor {K} foi encontrado na posição {posicao} (índice do vetor).")
+    print(f'\nO valor {K} foi encontrado na índice {posicao} do vetor.')
 else:
-    print(f"\nO valor {K} não está no vetor.")
+    print(f'\nO valor {K} não está no vetor.')
 
-print(f"Número de comparações realizadas: {comparacoes}")
+print(f'Número de comparações realizadas: {comparacoes}')

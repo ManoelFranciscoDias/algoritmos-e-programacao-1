@@ -30,6 +30,9 @@ for i in range(M):
         soma += A[i][j] * X[j]
     Y.append(soma)
 
-print('Matriz A:', A)
-print('Vetor X:', X)
-print('Vetor Y:', Y)
+print('Matriz A:')
+for linha in A:
+    print(' '.join(f'{elemento:6}' for elemento in linha))
+
+print(f'Vetor X: {X}')
+print(f'Vetor Y: {Y}')

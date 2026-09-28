@@ -8,4 +8,4 @@ if letra.isalpha() and len(letra) == 1:
     else:
         print(f'A letra {letra} é uma consoante')
 else:
-    print('Digite uma letra')
+    print('Entrada inválida! Digite apenas uma letra.')

@@ -11,26 +11,25 @@ nota_2 = float(input('Digite a sua segunda nota: '))
 if 0 <= nota_1 <= 10 and 0 <= nota_2 <= 10:
     media = (nota_1 + nota_2) / 2
 
-    print('-' * 15)
-    print(f'Notas: {nota_1}, {nota_2}')
-    print(f'Média: {media}')
-
-    if 9 <= media <= 10:
+    if media >= 9:
         conceito = 'A'
-        situacao = 'Aprovado'
-    elif 7.5 <= media < 9:
+    elif media >= 7.5:
         conceito = 'B'
-        situacao = 'Aprovado'
-    elif 6 <= media < 7.5:
+    elif media >= 6:
         conceito = 'C'
-        situacao = 'Aprovado'
-    elif 4 <= media < 6:
+    elif media >= 4:
         conceito = 'D'
-        situacao ='Reprovado'
     else:
         conceito = 'E'
-        situacao = 'Reprovado'
 
+    if conceito in 'ABC':
+        situacao = 'APROVADO'
+    else:
+        situacao = 'REPROVADO'
+
+    print('-' * 15)
+    print(f'Notas: {nota_1} e {nota_2}')
+    print(f'Média: {media:.2f}')
     print(f'Conceito: {conceito}')
     print(situacao)
 else:

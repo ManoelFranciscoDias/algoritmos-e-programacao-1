@@ -1,19 +1,19 @@
 # Exercício 22: Ler 3 valores (considere que não serão informados valores iguais) e escrevê-los em ordem
 # crescente.
 
-nmr1 = float(input('Digite o primeiro valor: '))
-nmr2 = float(input('Digite o segundo valor: '))
-nmr3 = float(input('Digite o terceiro valor: '))
+valor_1 = float(input('Digite o primeiro valor: '))
+valor_2 = float(input('Digite o segundo valor: '))
+valor_3 = float(input('Digite o terceiro valor: '))
 
-if nmr1 > nmr2 and nmr1 > nmr3 and nmr2 > nmr3:
-    print(nmr3, nmr2, nmr1, sep=' - ')
-elif nmr1 > nmr2 and nmr1 > nmr3 and nmr3 > nmr2:
-    print(nmr2, nmr3, nmr1, sep=' - ')
-elif nmr2 > nmr1 and nmr2 > nmr3 and nmr1 > nmr3:
-    print(nmr3, nmr1, nmr2, sep=' - ')
-elif nmr2 > nmr1 and nmr2 > nmr3 and nmr3 > nmr1:
-    print(nmr1, nmr3, nmr2, sep=' - ')
-elif nmr3 > nmr1 and nmr3 > nmr2 and nmr1 > nmr2:
-    print(nmr2, nmr1, nmr3, sep=' - ')
+if valor_1 > valor_2 and valor_1 > valor_3 and valor_2 > valor_3:
+    print(valor_3, valor_2, valor_1, sep=' - ')
+elif valor_1 > valor_2 and valor_1 > valor_3 and valor_3 > valor_2:
+    print(valor_2, valor_3, valor_1, sep=' - ')
+elif valor_2 > valor_1 and valor_2 > valor_3 and valor_1 > valor_3:
+    print(valor_3, valor_1, valor_2, sep=' - ')
+elif valor_2 > valor_1 and valor_2 > valor_3 and valor_3 > valor_1:
+    print(valor_1, valor_3, valor_2, sep=' - ')
+elif valor_3 > valor_1 and valor_3 > valor_2 and valor_1 > valor_2:
+    print(valor_2, valor_1, valor_3, sep=' - ')
 else:
-    print(nmr1, nmr2, nmr3, sep=' - ')
+    print(valor_1, valor_2, valor_3, sep=' - ')

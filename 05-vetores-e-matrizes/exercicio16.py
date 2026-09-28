@@ -8,7 +8,6 @@ K = int(input('Digite a chave K: '))
 A = []
 posicoes = []
 
-
 for i in range(128):
     elemento = int(input(f'Digite o elemento {i+1}: '))
     A.append(elemento)
@@ -17,6 +16,6 @@ for i in range(128):
         posicoes.append(i + 1)
 
 if len(posicoes) == 0:
-    print("CHAVE K NÃO ENCONTRADA")
+    print('CHAVE K NÃO ENCONTRADA')
 else:
     print(f'Chave {K} encontrada na(s) posição(ões): {posicoes}')

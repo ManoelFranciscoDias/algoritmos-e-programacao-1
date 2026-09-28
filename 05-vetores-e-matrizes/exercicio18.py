@@ -9,9 +9,8 @@ for i in range(15):
         linha.append(valor)
     A.append(linha)
 
-
 print('Conteúdo da matriz A:')
 for i in range(15):
     for j in range(25):
-        print(f"{A[i][j]:4}", end="")
+        print(f'{A[i][j]:4}', end='')
     print()

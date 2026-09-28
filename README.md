@@ -35,9 +35,9 @@ Cada pasta contém:
 Clone o repositório e rode qualquer exercício com Python:
 
 ```bash
-git clone https://github.com/ManoelFranciscoDias/introducao-python.git
-cd introducao-python/01-introducao
-python exercicio01.py
+git clone https://github.com/ManoelFranciscoDias/algoritmos-e-programacao-1.git
+cd algoritmos-e-programacao-1/01-introducao
+python3 exercicio01.py
 ```
 
 ## 👤 Autor

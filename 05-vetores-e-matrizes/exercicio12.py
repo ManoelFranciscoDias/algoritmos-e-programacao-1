@@ -13,4 +13,4 @@ for i in range(20):
 for i in range(10):
     S += (A[i] - A[19 - i])**2
 
-print('S =', S)
+print(f'S = {S}')

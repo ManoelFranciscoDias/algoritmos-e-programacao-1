@@ -14,18 +14,15 @@ valores = [a, b, c]
 if opcao == '1':
     valores.sort()
     print('Ordem crescente')
-    print(valores)
-
+    print(*valores, sep=' - ')
 elif opcao == '2':
     valores.sort(reverse=True)
     print('Ordem decrescente')
-    print(valores)
-
+    print(*valores, sep=' - ')
 elif opcao == '3':
     valores.sort()
     valores = [valores[0], valores[2], valores[1]]
     print('Maior no meio')
-    print(valores)
-
+    print(*valores, sep=' - ')
 else:
     print('Opção inválida')

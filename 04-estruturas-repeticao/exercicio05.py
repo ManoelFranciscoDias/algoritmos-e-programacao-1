@@ -13,5 +13,4 @@ while contador <= 20:
         soma_altura += altura
         contador += 1
 
-
-print(f'A média aritmetica das alturas é {(soma_altura / 20):.2f}')
+print(f'A média aritmética das alturas é {(soma_altura / 20):.2f}')

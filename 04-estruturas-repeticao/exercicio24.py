@@ -3,6 +3,7 @@
 # cálculo valores maiores do que zero. O algoritmo deve apresentar ao usuário a seguinte
 # mensagem: "deseja digitar mais um valor: s (SIM) / n (NAO)?", antes de prosseguir com a entrada
 # de dados.
+
 total_pessoas = 0
 soma_idades = 0
 
@@ -13,7 +14,7 @@ while True:
         total_pessoas += 1
         soma_idades += idade
     else:
-        print('Idade inválida — digite um valor maior que 0.')
+        print('Idade inválida! Digite um valor maior que 0.')
 
     continuar = input('Deseja digitar mais um valor? s (SIM) / n (NAO): ').strip().upper()
     if continuar == 'N':

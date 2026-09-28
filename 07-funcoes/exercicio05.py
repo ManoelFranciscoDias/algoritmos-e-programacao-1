@@ -8,16 +8,16 @@
 # - Se o número de lados for igual a 5, escrever PENTÁGONO.
 # Observação: Considere que o usuário só informará os valores 3, 4 ou 5.
 
-def classificar_poligono(qtd_lados, lado):
-    if qtd_lados == 3:
-        print(f'TRIÂNGULO | Perímetro: {lado * 3:.2f} cm')
-    elif qtd_lados == 4:
-        print(f'QUADRADO | Área: {lado ** 2:.2f} cm²')
-    elif qtd_lados == 5:
+def classificar_poligono(quantidade_lados, medida_lado):
+    if quantidade_lados == 3:
+        print(f'TRIÂNGULO | Perímetro: {medida_lado * 3:.2f} cm')
+    elif quantidade_lados == 4:
+        print(f'QUADRADO | Área: {medida_lado ** 2:.2f} cm²')
+    elif quantidade_lados == 5:
         print('PENTÁGONO')
 
 
-qtd_lados = int(input('Informe o número de lados do polígono: '))
-lado = float(input('Informe a medida do lado (cm): '))
+quantidade_lados = int(input('Informe o número de lados do polígono: '))
+medida_lado = float(input('Informe a medida do lado (cm): '))
 
-classificar_poligono(qtd_lados, lado)
+classificar_poligono(quantidade_lados, medida_lado)

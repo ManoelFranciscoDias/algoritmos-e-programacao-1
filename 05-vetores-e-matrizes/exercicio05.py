@@ -9,10 +9,10 @@ for i in range(100):
     vetor.append(numero)
 
     if numero == 30:
-        posicoes.append(i)
+        posicoes.append(i + 1)
 
-if len(posicoes) >= 1:
-    print('Existem elementos igual a 30 nesse vetor')
-    print(f'posições: {posicoes}')
+if posicoes:
+    print('Existem elementos iguais a 30 no vetor')
+    print(f'Posições: {posicoes}')
 else:
-    print('Não tem elementos iguais a 30 nesse vetor')
+    print('Não existem elementos iguais a 30 no vetor')

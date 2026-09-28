@@ -10,15 +10,15 @@ while len(frase) != 50:
     print(f'A frase tem {len(frase)} caracteres. Tente novamente.')
     frase = input('Digite uma frase de 50 caracteres: ')
 
-espacos_brancos = 0
-letra_a = 0
+quantidade_espacos = 0
+quantidade_letra_a = 0
 
 for caractere in frase:
-    if caractere == " ":
-        espacos_brancos += 1
-    elif caractere.upper() == "A":
-        letra_a += 1
+    if caractere == ' ':
+        quantidade_espacos += 1
+    elif caractere.upper() == 'A':
+        quantidade_letra_a += 1
 
-print(f'Na frase: {frase}')
-print(f'Possui {letra_a} letras A')
-print(f'E {espacos_brancos} espaços em branco')
+print(f'Frase: {frase}')
+print(f'Espaços em branco: {quantidade_espacos}')
+print(f'Quantidade de letras A: {quantidade_letra_a}')

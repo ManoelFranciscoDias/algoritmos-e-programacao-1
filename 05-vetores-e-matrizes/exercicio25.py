@@ -10,16 +10,16 @@ for i in range(4):
         linha.append(int(input(f'Informe o elemento [{i}][{j}] da matriz: ')))
     matriz.append(linha)
 
-somalinha = []
+soma_linha = []
 for i in range(4):
     soma = 0
     for j in range(5):
         soma += matriz[i][j]
-    somalinha.append(soma)
+    soma_linha.append(soma)
 
 total = 0
 for i in range(4):
-    total += somalinha[i]
+    total += soma_linha[i]
 
-print(f'Vetor SOMALINHA: {somalinha}')
-print(f'A variável TOTAL é: {total}')
+print(f'Vetor SOMALINHA: {soma_linha}')
+print(f'TOTAL: {total}')

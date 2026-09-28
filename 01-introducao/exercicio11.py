@@ -3,9 +3,11 @@
 # do salário mínimo e calcule a quantidade de casas que podem ser construídas com o
 # recurso liberado.
 
-salario_minimo = float(input('Informe qual é o preço do salario minimo: '))
+VERBA_LIBERADA = 1_000_000_000
+
+salario_minimo = float(input('Informe o valor do salário mínimo: '))
 
 valor_casa = salario_minimo * 90
-quantidade_casas = 1_000_000_000 // valor_casa
+quantidade_casas = int(VERBA_LIBERADA // valor_casa)
 
-print(f'Com R$1.000.000.000,00 liberado do governo, podemos criar {quantidade_casas:.0f} casas')
+print(f'Com R$ 1.000.000.000,00 liberados pelo governo, é possível construir {quantidade_casas} casas')

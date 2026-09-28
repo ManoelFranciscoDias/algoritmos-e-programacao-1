@@ -6,8 +6,6 @@ quantidade_tinta = float(input('Qual a quantidade de tinta que a caneta tem? '))
 
 while quantidade_tinta > 0.01:
     print('Enquanto tem tinta a caneta escreve...')
-    quantidade_tinta = quantidade_tinta * 0.98
-
+    quantidade_tinta *= 0.98
 
 print('A caneta ficou sem tinta')
-

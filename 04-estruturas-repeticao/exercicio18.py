@@ -10,7 +10,7 @@
 despesas = 200.00
 lucro_maximo = None
 
-print(f"{'Preço':>8} {'Ingressos':>10} {'Lucro':>10}")
+print(f'{"Preço":>8} {"Ingressos":>10} {"Lucro":>10}')
 
 for i in range(10, 1, -1):
     preco = i / 2
@@ -18,13 +18,13 @@ for i in range(10, 1, -1):
     ingressos = 120 + reducoes * 26
     lucro = preco * ingressos - despesas
 
-    print(f"{preco:8.2f} {ingressos:10d} {lucro:10.2f}")
+    print(f'{preco:8.2f} {ingressos:10d} {lucro:10.2f}')
 
     if lucro_maximo is None or lucro > lucro_maximo:
         lucro_maximo = lucro
         preco_otimo = preco
         ingressos_otimo = ingressos
 
-print(f"\nLucro máximo: R$ {lucro_maximo:.2f}")
-print(f"Preço do ingresso: R$ {preco_otimo:.2f}")
-print(f"Número de ingressos: {ingressos_otimo}")
+print(f'\nLucro máximo: R$ {lucro_maximo:.2f}')
+print(f'Preço do ingresso: R$ {preco_otimo:.2f}')
+print(f'Número de ingressos: {ingressos_otimo}')

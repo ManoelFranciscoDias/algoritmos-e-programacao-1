@@ -13,8 +13,8 @@ def pesoideal(altura, sexo):
         return (72.7 * altura) - 58
 
 
+altura = float(input('Informe a sua altura (em metros): '))
 sexo = int(input('Informe o seu sexo (1-feminino 2-masculino): '))
-altura = float(input('Informe qual é a sua altura (em metros): '))
 
 if sexo == 1 or sexo == 2:
     peso = pesoideal(altura, sexo)

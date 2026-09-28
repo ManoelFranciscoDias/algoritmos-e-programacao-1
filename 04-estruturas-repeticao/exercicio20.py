@@ -9,7 +9,7 @@ horas_por_dia = 16
 
 for hora in range(1, horas_por_dia + 1):
     total_dia += quebrados_hora
-    print(f"Hora {hora}: {quebrados_hora} biscoito(s) quebrado(s) | Total acumulado: {total_dia}")
-    quebrados_hora = quebrados_hora * 3
+    print(f'Hora {hora}: {quebrados_hora} biscoito(s) quebrado(s) | Total acumulado: {total_dia}')
+    quebrados_hora *= 3
 
-print("Total de biscoitos quebrados ao final do dia:", total_dia)
+print(f'Total de biscoitos quebrados ao final do dia: {total_dia}')

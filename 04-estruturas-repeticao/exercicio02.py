@@ -4,11 +4,11 @@
 contador = 1
 
 while contador <= 15:
-    numero = int(input(f'Digite o {contador}° número: '))
+    numero = int(input(f'Digite o {contador}º número: '))
 
     if numero % 2 == 0:
         print(f'{numero} é par')
     else:
         print(f'{numero} é ímpar')
-        
+
     contador += 1

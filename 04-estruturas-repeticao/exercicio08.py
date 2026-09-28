@@ -9,8 +9,8 @@ soma_alturas = 0
 posicao_atual = 1
 
 while posicao_atual <= quantidade_atletas:
-    inscricao_atleta = int(input(f'Digite o número de inscrição do {posicao_atual}° atleta: '))
-    altura_atleta = float(input(f'Digite a altura (em cm) do {posicao_atual}° atleta: '))
+    inscricao_atleta = int(input(f'Digite o número de inscrição do {posicao_atual}º atleta: '))
+    altura_atleta = float(input(f'Digite a altura (em cm) do {posicao_atual}º atleta: '))
     soma_alturas += altura_atleta
 
     if posicao_atual == 1:
@@ -28,8 +28,11 @@ while posicao_atual <= quantidade_atletas:
 
     posicao_atual += 1
 
-media_alturas = soma_alturas / quantidade_atletas
+if quantidade_atletas > 0:
+    media_alturas = soma_alturas / quantidade_atletas
 
-print(f'O atleta mais alto tem inscrição {inscricao_mais_alto} e altura {altura_mais_alto} cm')
-print(f'O atleta mais baixo tem inscrição {inscricao_mais_baixo} e altura {altura_mais_baixo} cm')
-print(f'A altura média do grupo é de: {media_alturas:.2f} cm')
+    print(f'O atleta mais alto tem inscrição {inscricao_mais_alto} e altura {altura_mais_alto} cm')
+    print(f'O atleta mais baixo tem inscrição {inscricao_mais_baixo} e altura {altura_mais_baixo} cm')
+    print(f'A altura média do grupo é de {media_alturas:.2f} cm')
+else:
+    print('Nenhum atleta foi cadastrado.')

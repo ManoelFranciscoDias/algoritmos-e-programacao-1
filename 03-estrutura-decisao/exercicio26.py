@@ -18,4 +18,3 @@ if c < a + b and a < c + b and b < a + c:
         print('Triângulo escaleno')
 else:
     print('Os valores lidos não formam um triângulo')
-

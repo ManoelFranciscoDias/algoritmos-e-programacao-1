@@ -4,7 +4,7 @@
 # Ligado em 50%"; >= 735°C = "Aquecimento Desligado"; > 780°C = "Superaquecimento". Os
 # valores digitados devem ser inteiros e inferiores a 1000.
 
-temperatura = int(input('Qual a temperatura que o alumínio deverá ser trabalhado: '))
+temperatura = int(input('Informe a temperatura de trabalho do forno (em °C): '))
 
 if temperatura >= 1000:
     print('Erro! Digite valores inferiores a 1000')

@@ -5,6 +5,7 @@
 #    igual a dois;
 # b) o jogador com mais de 21 pontos conseguir uma diferença de dois pontos sobre o adversário,
 #    caso a primeira condição não seja atendida.
+
 pontos_direita = 0
 pontos_esquerda = 0
 

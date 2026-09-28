@@ -6,7 +6,8 @@
 def fahrenheit_para_celsius(fahrenheit):
     return (fahrenheit - 32) * 5 / 9
 
-temp_f = float(input("Digite a temperatura em Fahrenheit: "))
-temp_c = fahrenheit_para_celsius(temp_f)
 
-print(f"{temp_f}°F equivalem a {temp_c:.2f}°C")
+temperatura_fahrenheit = float(input('Digite a temperatura em Fahrenheit: '))
+temperatura_celsius = fahrenheit_para_celsius(temperatura_fahrenheit)
+
+print(f'{temperatura_fahrenheit}°F equivalem a {temperatura_celsius:.2f}°C')

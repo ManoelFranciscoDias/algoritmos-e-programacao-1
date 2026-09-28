@@ -4,7 +4,7 @@
 idade = int(input('Digite a sua idade: '))
 
 if idade < 0:
-    print('Inválido!')
+    print('Idade inválida!')
 elif idade <= 17:
     print('Menor de idade')
 elif idade <= 65:

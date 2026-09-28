@@ -2,23 +2,19 @@
 # inferior a R$ 10.000,00, reajuste de 55%; se está entre R$ 10.000,00 (inclusive) e R$
 # 25.000,00 (inclusive), reajuste de 20%; se é superior a R$ 25.000,00, reajuste de 20%.
 
-salario = float(input('Informe qual é o seu salario: '))
+salario = float(input('Informe o seu salário: '))
 
-if salario >= 0:
-    if salario < 10_000:
-        reajuste = 'Você teve um reajuste salarial de 55%'
-        novo_salario = salario * 1.55
-
-    elif 10_000 <= salario <= 25_000:
-        reajuste = 'Você teve um reajuste de 20%'
-        novo_salario = salario * 1.20
-
-    else:
-        reajuste = 'Você teve um reajuste de 20%'
-        novo_salario = salario * 1.20
-
-    print(reajuste)
-    print(f'Novo salário: R$ {novo_salario:.2f}')
-
+if salario < 0:
+    print('Erro! O salário não pode ser negativo.')
 else:
-    print('Erro! Salário Negativo')
+    if salario < 10_000:
+        percentual_reajuste = 55
+    elif salario <= 25_000:
+        percentual_reajuste = 20
+    else:
+        percentual_reajuste = 20
+
+    novo_salario = salario * (1 + percentual_reajuste / 100)
+
+    print(f'Você teve um reajuste salarial de {percentual_reajuste}%')
+    print(f'Novo salário: R$ {novo_salario:.2f}')
