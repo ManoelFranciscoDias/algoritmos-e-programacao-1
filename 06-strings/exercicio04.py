@@ -8,3 +8,10 @@
 # FULA
 # FULAN
 # FULANO
+
+nome = input('Nome: ').upper()
+
+
+for i in range(len(nome) + 1):
+    print(nome[:i])
+    
