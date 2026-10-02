@@ -12,6 +12,5 @@
 nome = input('Nome: ').upper()
 
 
-for i in range(len(nome) + 1):
+for i in range(1, len(nome) + 1):
     print(nome[:i])
-    

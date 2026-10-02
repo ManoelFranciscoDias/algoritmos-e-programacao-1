@@ -11,14 +11,17 @@ km_final = float(input('Informe a quilometragem final do carro: '))
 litros_consumidos = float(input('Informe a quantidade de litros de combustível consumidos: '))
 preco_por_litro = float(input('Informe o preço por litro: '))
 
-distancia_percorrida = km_final - km_inicial
-total_a_pagar = preco_por_litro * litros_consumidos
-km_por_litro = distancia_percorrida / litros_consumidos
+if litros_consumidos <= 0:
+    print('Erro! A quantidade de litros consumidos deve ser maior que zero.')
+else:
+    distancia_percorrida = km_final - km_inicial
+    total_a_pagar = preco_por_litro * litros_consumidos
+    km_por_litro = distancia_percorrida / litros_consumidos
 
-print('-' * 15)
-print(f'Modelo: {modelo}    Marca: {marca}    Ano: {ano}')
-print(f'Distância percorrida: {distancia_percorrida:.1f} km')
-print(f'Litros de combustível consumidos: {litros_consumidos:.1f} L')
-print(f'Preço por litro: R$ {preco_por_litro:.2f}')
-print(f'Total a pagar: R$ {total_a_pagar:.2f}')
-print(f'Consumo: {km_por_litro:.2f} km/L')
+    print('-' * 15)
+    print(f'Modelo: {modelo}    Marca: {marca}    Ano: {ano}')
+    print(f'Distância percorrida: {distancia_percorrida:.1f} km')
+    print(f'Litros de combustível consumidos: {litros_consumidos:.1f} L')
+    print(f'Preço por litro: R$ {preco_por_litro:.2f}')
+    print(f'Total a pagar: R$ {total_a_pagar:.2f}')
+    print(f'Consumo: {km_por_litro:.2f} km/L')

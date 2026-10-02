@@ -7,6 +7,11 @@ frase = input("Digite uma frase: ").lower()
 
 print("Espaços em branco:", frase.count(" "))
 
-for vogal in "aeiou":
-    print(f'Vogal {vogal}: {frase.count(vogal)}')
+vogais = {"a": "aáàâã", "e": "eéê", "i": "ií", "o": "oóôõ", "u": "uúü"}
+
+for vogal, variacoes in vogais.items():
+    quantidade = 0
+    for letra in variacoes:
+        quantidade += frase.count(letra)
+    print(f'Vogal {vogal}: {quantidade}')
 

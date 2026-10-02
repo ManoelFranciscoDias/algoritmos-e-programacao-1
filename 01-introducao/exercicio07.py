@@ -11,7 +11,10 @@ f = float(input('Digite o valor de F: '))
 
 denominador = a * e - b * d
 
-x = (c * e - b * f) / denominador
-y = (a * f - c * d) / denominador
+if denominador == 0:
+    print('O sistema não possui solução única (ae - bd = 0)')
+else:
+    x = (c * e - b * f) / denominador
+    y = (a * f - c * d) / denominador
 
-print(f'Os valores de x e y são {x:.2f} e {y:.2f}, respectivamente')
+    print(f'Os valores de x e y são {x:.2f} e {y:.2f}, respectivamente')

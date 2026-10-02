@@ -20,6 +20,10 @@ for parada in range(1, quantidade_reabastecimentos):
     odometro_atual = float(input(f'Digite a leitura do odômetro no {parada + 1}º abastecimento: '))
     litros = float(input('Digite a quantidade de combustível comprada (em litros): '))
 
+    while litros <= 0:
+        print('Quantidade inválida! Digite um valor maior que zero.')
+        litros = float(input('Digite a quantidade de combustível comprada (em litros): '))
+
     distancia = odometro_atual - odometro_anterior
     km_por_litro = distancia / litros
     print(f'Quilometragem obtida nesse trecho: {km_por_litro:.2f} km/L')

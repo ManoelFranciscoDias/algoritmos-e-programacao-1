@@ -6,7 +6,10 @@
 
 frase = input('Digite uma frase: ')
 
-limpa = frase.replace(' ', '').lower()
+limpa = ''
+for caractere in frase.lower():
+    if caractere.isalnum():
+        limpa += caractere
 
 print(f'Frase: {frase}')
 

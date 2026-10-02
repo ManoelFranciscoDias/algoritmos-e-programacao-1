@@ -7,7 +7,10 @@ VERBA_LIBERADA = 1_000_000_000
 
 salario_minimo = float(input('Informe o valor do salário mínimo: '))
 
-valor_casa = salario_minimo * 90
-quantidade_casas = int(VERBA_LIBERADA // valor_casa)
+if salario_minimo <= 0:
+    print('Erro! O salário mínimo deve ser maior que zero.')
+else:
+    valor_casa = salario_minimo * 90
+    quantidade_casas = int(VERBA_LIBERADA // valor_casa)
 
-print(f'Com R$ 1.000.000.000,00 liberados pelo governo, é possível construir {quantidade_casas} casas')
+    print(f'Com R$ 1.000.000.000,00 liberados pelo governo, é possível construir {quantidade_casas} casas')

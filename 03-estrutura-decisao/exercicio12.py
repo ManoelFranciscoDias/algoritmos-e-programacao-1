@@ -3,7 +3,7 @@
 
 numero = input('Digite um número inteiro: ')
 
-if numero.isdigit():
+if numero.isdigit() or (numero.startswith('-') and numero[1:].isdigit()):
     numero = int(numero)
     if numero % 2 == 0:
         print(f'O número {numero} é par')

@@ -8,12 +8,16 @@ n = int(input('Quantos números você vai digitar? '))
 
 for _ in range(n):
     numero = int(input('Digite um número inteiro: '))
-    divisores = []
 
-    for divisor in range(1, numero + 1):
-        if numero % divisor == 0:
-            divisores.append(divisor)
+    if numero == 0:
+        print('O zero é divisível por qualquer número, então tem infinitos divisores.')
+    else:
+        divisores = []
 
-    print(f'Divisores de {numero}: {", ".join(str(divisor) for divisor in divisores)}')
-    print(f'Quantidade de divisores: {len(divisores)}')
+        for divisor in range(1, abs(numero) + 1):
+            if numero % divisor == 0:
+                divisores.append(divisor)
+
+        print(f'Divisores de {numero}: {", ".join(str(divisor) for divisor in divisores)}')
+        print(f'Quantidade de divisores: {len(divisores)}')
     print()

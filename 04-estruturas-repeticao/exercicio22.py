@@ -11,13 +11,13 @@ quantidade_mulheres = 0
 soma_alturas_turma = 0
 
 for i in range(1, n + 1):
-    sexo = input(f'Digite o sexo da {i}º pessoa (M para masculino, F para feminino): ').strip().upper()
+    sexo = input(f'Digite o sexo da {i}ª pessoa (M para masculino, F para feminino): ').strip().upper()
 
     while sexo != 'M' and sexo != 'F':
         print('Sexo inválido! Digite M ou F.')
-        sexo = input(f'Digite o sexo da {i}º pessoa (M para masculino, F para feminino): ').strip().upper()
+        sexo = input(f'Digite o sexo da {i}ª pessoa (M para masculino, F para feminino): ').strip().upper()
 
-    altura = float(input(f'Digite a altura da {i}º pessoa: '))
+    altura = float(input(f'Digite a altura da {i}ª pessoa: '))
 
     soma_alturas_turma += altura
     if sexo == 'F':

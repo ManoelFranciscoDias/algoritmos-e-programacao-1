@@ -36,7 +36,7 @@ while inicio <= fim:
         inicio = meio + 1
 
 if posicao != -1:
-    print(f'\nO valor {K} foi encontrado na índice {posicao} do vetor.')
+    print(f'\nO valor {K} foi encontrado no índice {posicao} do vetor.')
 else:
     print(f'\nO valor {K} não está no vetor.')
 
