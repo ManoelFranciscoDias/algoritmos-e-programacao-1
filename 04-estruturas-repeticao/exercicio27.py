@@ -8,9 +8,11 @@
 # a) a quilometragem obtida por litro de combustível entre cada par de paradas
 # b) a quilometragem média obtida por litro de combustível em toda a viagem.
 
-quantidade_reabastecimentos = int(input('Digite o número total de reabastecimentos (incluindo o primeiro): '))
+pergunta = 'Digite o número total de reabastecimentos (incluindo o primeiro): '
+quantidade_reabastecimentos = int(input(pergunta))
 
-odometro_anterior = float(input('Digite a leitura do odômetro no primeiro abastecimento, antes de sair: '))
+pergunta = 'Digite a leitura do odômetro no primeiro abastecimento, antes de sair: '
+odometro_anterior = float(input(pergunta))
 odometro_inicial = odometro_anterior
 
 litros_total = 0

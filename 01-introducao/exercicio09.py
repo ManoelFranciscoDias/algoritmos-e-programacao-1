@@ -1,5 +1,5 @@
-# Exercício 9: Faça um algoritmo que leia a idade de uma pessoa expressa em dias e mostre-a expressa em
-# anos, meses e dias.
+# Exercício 9: Faça um algoritmo que leia a idade de uma pessoa expressa em dias e mostre-a
+# expressa em anos, meses e dias.
 
 idade_dias = int(input('Informe a sua idade em dias: '))
 

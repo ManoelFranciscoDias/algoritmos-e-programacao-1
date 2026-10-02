@@ -1,5 +1,5 @@
-# Exercício 22: Ler 3 valores (considere que não serão informados valores iguais) e escrevê-los em ordem
-# crescente.
+# Exercício 22: Ler 3 valores (considere que não serão informados valores iguais) e escrevê-los
+# em ordem crescente.
 
 valor_1 = float(input('Digite o primeiro valor: '))
 valor_2 = float(input('Digite o segundo valor: '))

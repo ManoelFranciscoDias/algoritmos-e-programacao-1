@@ -3,11 +3,11 @@
 # a. quantos espaços em branco existem na frase.
 # b. quantas vezes aparecem as vogais a, e, i, o, u.
 
-frase = input("Digite uma frase: ").lower()
+frase = input('Digite uma frase: ').lower()
 
-print("Espaços em branco:", frase.count(" "))
+print('Espaços em branco:', frase.count(' '))
 
-vogais = {"a": "aáàâã", "e": "eéê", "i": "ií", "o": "oóôõ", "u": "uúü"}
+vogais = {'a': 'aáàâã', 'e': 'eéê', 'i': 'ií', 'o': 'oóôõ', 'u': 'uúü'}
 
 for vogal, variacoes in vogais.items():
     quantidade = 0

@@ -1,5 +1,5 @@
-# Exercício 8: Entrar com a idade de uma pessoa e exibir a mensagem: Maior de idade, menor de idade ou
-# acima de 65 anos.
+# Exercício 8: Entrar com a idade de uma pessoa e exibir a mensagem: Maior de idade, menor de
+# idade ou acima de 65 anos.
 
 idade = int(input('Digite a sua idade: '))
 

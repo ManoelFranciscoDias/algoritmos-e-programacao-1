@@ -15,11 +15,12 @@ soma_canal_12 = 0
 soma_desligada = 0
 
 for i in range(1, casas + 1):
-    canal = int(input(f'Na casa {i}, qual canal estava sendo assistido? (0 = desligada, 4, 5, 9, 12): '))
+    pergunta = f'Na casa {i}, qual canal estava sendo assistido? (0 = desligada, 4, 5, 9, 12): '
+    canal = int(input(pergunta))
 
     while canal not in (0, 4, 5, 9, 12):
         print('Canal inválido! Digite 0, 4, 5, 9 ou 12.')
-        canal = int(input(f'Na casa {i}, qual canal estava sendo assistido? (0 = desligada, 4, 5, 9, 12): '))
+        canal = int(input(pergunta))
 
     if canal == 0:
         soma_desligada += 1

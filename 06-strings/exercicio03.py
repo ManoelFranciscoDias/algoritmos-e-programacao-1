@@ -9,9 +9,9 @@
 # N
 # O
 
-print("Nome na vertical")
+print('Nome na vertical')
 
-nome = input("Digite o seu nome: ").upper()
+nome = input('Digite o seu nome: ').upper()
 
 for letra in nome:
     print(letra)

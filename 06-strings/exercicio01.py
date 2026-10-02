@@ -11,19 +11,19 @@
 # As duas strings são de tamanhos diferentes.
 # As duas strings possuem conteúdo diferente.
 
-print("Compara duas strings")
-s1 = input("String 1: ")
-s2 = input("String 2: ")
+print('Compara duas strings')
+s1 = input('String 1: ')
+s2 = input('String 2: ')
 
 print(f'Tamanho de "{s1}": {len(s1)} caracteres')
 print(f'Tamanho de "{s2}": {len(s2)} caracteres')
 
 if len(s1) == len(s2):
-    print("As duas strings são de tamanhos iguais.")
+    print('As duas strings são de tamanhos iguais.')
 else:
-    print("As duas strings são de tamanhos diferentes.")
+    print('As duas strings são de tamanhos diferentes.')
 
 if s1 == s2:
-    print("As duas strings possuem conteúdo igual.")
+    print('As duas strings possuem conteúdo igual.')
 else:
-    print("As duas strings possuem conteúdo diferente.")
+    print('As duas strings possuem conteúdo diferente.')

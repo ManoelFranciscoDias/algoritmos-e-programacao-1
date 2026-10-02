@@ -7,36 +7,36 @@
 import os
 import random
 
-caminho = os.path.join(os.path.dirname(__file__), "palavras.txt")
+caminho = os.path.join(os.path.dirname(__file__), 'palavras.txt')
 
-with open(caminho, encoding="utf-8") as arquivo:
+with open(caminho, encoding='utf-8') as arquivo:
     palavras = [linha.strip().upper() for linha in arquivo if linha.strip()]
 
 palavra = random.choice(palavras)
 
 embaralhada = palavra
 while embaralhada == palavra:
-    embaralhada = "".join(random.sample(palavra, len(palavra)))
+    embaralhada = ''.join(random.sample(palavra, len(palavra)))
 
-print("Jogo da palavra embaralhada")
-print(f"Palavra embaralhada: {embaralhada}")
+print('Jogo da palavra embaralhada')
+print(f'Palavra embaralhada: {embaralhada}')
 print()
 
 tentativas = 6
 ganhou = False
 
 while tentativas > 0 and not ganhou:
-    palpite = input("Qual é a palavra? ").strip().upper()
+    palpite = input('Qual é a palavra? ').strip().upper()
 
     if palpite == palavra:
         ganhou = True
     else:
         tentativas -= 1
         if tentativas > 0:
-            print(f"-> Você errou. Restam {tentativas} tentativa(s).")
+            print(f'-> Você errou. Restam {tentativas} tentativa(s).')
         print()
 
 if ganhou:
-    print(f"Parabéns, você ganhou! A palavra era {palavra}.")
+    print(f'Parabéns, você ganhou! A palavra era {palavra}.')
 else:
-    print(f"Você perdeu! A palavra era {palavra}.")
+    print(f'Você perdeu! A palavra era {palavra}.')

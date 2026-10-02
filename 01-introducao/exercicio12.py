@@ -1,5 +1,5 @@
-# Exercício 12: Faça um algoritmo que leia o salário bruto mensal de um funcionário, calcule e mostre:
-# Salário Bruto, (-) IR (15%), (-) INSS (11%), (-) Sindicato (3%) e o Salário Líquido.
+# Exercício 12: Faça um algoritmo que leia o salário bruto mensal de um funcionário, calcule e
+# mostre: Salário Bruto, (-) IR (15%), (-) INSS (11%), (-) Sindicato (3%) e o Salário Líquido.
 
 salario_bruto = float(input('Informe o seu salário bruto mensal: '))
 

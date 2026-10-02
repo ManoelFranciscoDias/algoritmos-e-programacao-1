@@ -1,5 +1,5 @@
-# Exercício 4: Fazer um algoritmo para ler o valor do lado de um cubo e mostrar sua área (6 x lado^2) e
-# seu volume (lado^3).
+# Exercício 4: Fazer um algoritmo para ler o valor do lado de um cubo e mostrar sua área (6 x
+# lado^2) e seu volume (lado^3).
 
 lado_cubo = float(input('Digite a medida do lado do cubo: '))
 

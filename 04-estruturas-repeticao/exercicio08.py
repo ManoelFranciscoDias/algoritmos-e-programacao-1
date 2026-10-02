@@ -32,7 +32,8 @@ if quantidade_atletas > 0:
     media_alturas = soma_alturas / quantidade_atletas
 
     print(f'O atleta mais alto tem inscrição {inscricao_mais_alto} e altura {altura_mais_alto} cm')
-    print(f'O atleta mais baixo tem inscrição {inscricao_mais_baixo} e altura {altura_mais_baixo} cm')
+    print(f'O atleta mais baixo tem inscrição {inscricao_mais_baixo}',
+          f'e altura {altura_mais_baixo} cm')
     print(f'A altura média do grupo é de {media_alturas:.2f} cm')
 else:
     print('Nenhum atleta foi cadastrado.')

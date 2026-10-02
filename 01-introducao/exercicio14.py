@@ -1,7 +1,7 @@
-# Exercício 14: Faça um algoritmo que leia as medidas dos 4 lados de um terreno, o preço de um mourão e
-# o preço de um metro de arame farpado. Deve ser escrito: o número de mourões necessários
-# para cercar o terreno, colocando um mourão a cada 3 metros; o gasto total, o gasto em
-# mourões e o gasto em arame, supondo que a cerca seja feita com 4 fios de arame.
+# Exercício 14: Faça um algoritmo que leia as medidas dos 4 lados de um terreno, o preço de um
+# mourão e o preço de um metro de arame farpado. Deve ser escrito: o número de mourões
+# necessários para cercar o terreno, colocando um mourão a cada 3 metros; o gasto total, o gasto
+# em mourões e o gasto em arame, supondo que a cerca seja feita com 4 fios de arame.
 
 import math
 

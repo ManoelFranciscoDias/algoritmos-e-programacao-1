@@ -3,9 +3,9 @@
 # maiúsculas. Dica: lembre-se que ao informar o nome o usuário pode digitar letras maiúsculas ou
 # minúsculas.
 
-print("Nome ao contrário em maiúsculas")
+print('Nome ao contrário em maiúsculas')
 
-nome = input("Digite o seu nome: ").upper()
-nome_invertido = "".join(reversed(nome))
+nome = input('Digite o seu nome: ').upper()
+nome_invertido = ''.join(reversed(nome))
 
-print(f"Seu nome ao contrário: {nome_invertido}")
+print(f'Seu nome ao contrário: {nome_invertido}')
