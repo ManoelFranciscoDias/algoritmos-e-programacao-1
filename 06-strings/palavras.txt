@@ -1,0 +1,15 @@
+python
+algoritmo
+programa
+computador
+teclado
+variavel
+funcao
+matriz
+vetor
+string
+internet
+sistema
+memoria
+arquivo
+monitor
